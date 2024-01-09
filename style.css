@@ -69,8 +69,8 @@ main {
   margin: auto;
   margin-bottom: 120px;
   margin-top: 50px;
-  background-image: url("images/Banner.png"),
-    linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("images/Banner.png");
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
@@ -121,8 +121,8 @@ main {
 /* night party design */
 
 .night-party {
-  background-image: url("images/Vectorrr.png"),
-    linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+  url("images/Vectorrr.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -244,7 +244,6 @@ main {
 .holiday {
   height: 1035px;
   margin-top: 120px;
-  background-color: palegreen;
 }
 
 .holiday-title {
@@ -269,7 +268,6 @@ main {
 .holiday p {
   height: 80px;
   width: 60%;
-  background-color: peru;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -277,20 +275,40 @@ main {
   margin-bottom: 64px;
 }
 
-.image-container{
-  background-color: #f00;
+.image-container {
+  display:flex;
   height: 433px;
   justify-content: right;
 }
 
 .holiday .img {
-  background-image: url('images/Rectangle 1.png'); 
+  background-image: url("images/Rectangle 1.png");
   background-position: bottom right;
   background-size: cover;
   width: 429px;
   height: 433px;
   flex-shrink: 0;
   border-radius: 16px 16px 0px 0px;
+}
+
+.holiday-discount{
+  
+}
+
+.Rectangle-background {
+  background-image: url("images/Rectangle 2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover ;
+  height: 229px;
+  flex-shrink: 0;
+}
+
+.Rectangle-background img {
+  width: 796.463px;
+height: 662.07px;
+flex-shrink: 0;
+  
 }
 
 /* best gift styles */
@@ -321,7 +339,7 @@ main {
   border-radius: 16px;
 }
 
-.grid-row img:hover{
+.grid-row img:hover {
   border: blueviolet solid 3px;
 }
 
