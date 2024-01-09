@@ -321,6 +321,10 @@ main {
   border-radius: 16px;
 }
 
+.grid-row img:hover{
+  border: blueviolet solid 3px;
+}
+
 /* subscribe section styles */
 
 .subscribe {
