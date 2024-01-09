@@ -38,6 +38,7 @@ main {
 
 .primary-btn {
   display: inline-flex;
+  cursor: pointer;
   padding: 16px 32px;
   justify-content: center;
   align-items: center;
@@ -47,6 +48,17 @@ main {
   color: aliceblue;
   border: 0px;
   font-weight: bold;
+}
+
+.transparent-btn {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  font-size: 20px;
+  color: #fff;
 }
 
 .txt-description {
@@ -68,7 +80,7 @@ main {
   margin-bottom: 120px;
   margin-top: 50px;
   background-image: url("images/Banner.png"),
-    linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+    linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
@@ -123,9 +135,32 @@ main {
     linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
   background-repeat: no-repeat;
   background-position: center;
-  height: 600px;
-  padding-left: 126px;
+  background-size: cover;
+  height: 700px;
+  padding: 68px 138px;
   margin-bottom: 120px;
+  align-items: center;
+  display: flex;
+}
+
+.welcome-container {
+  align-items: center;
+  max-width: 700px;
+}
+
+.year2024 {
+  background-image: url("images/Group 70.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  width: 319.83px;
+  height: 464.662px;
+  padding: 0.008px 0px 0px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  margin: 68px 138px 68px 40px;
 }
 .night-party div {
   padding-bottom: 24px;
@@ -142,6 +177,7 @@ main {
   font-size: 20px;
   font-weight: 700;
   padding: 5px;
+  /* margin-bottom: 142px; */
 }
 
 /* event section styles */
@@ -179,6 +215,7 @@ main {
 .best-offer {
   display: flex;
   gap: 118px;
+  align-items: center;
 }
 
 .offer1 {
@@ -194,25 +231,145 @@ main {
   margin-top: 22px;
 }
 
-.offer-image {
-  border-radius: 364.844px;
-
-  /* background-image: url('images/Ellipse 1.png'), lightgray -91.279px 0px / 150.038% 100% no-repeat; */
-}
-
 .offer-image-circle {
-  width: 463px;
-  height: 463px;
+  width: 400px;
+  height: 400px;
   flex-shrink: 0;
-  border-radius: 463px;
-  border: 15px solid #f00;
-  border-radius: 300px;
   background-image: url("images/Ellipse 1.png");
+  border: 15px solid #f00;
+  border-radius: 350px;
   background-repeat: no-repeat;
   background-position: center;
 }
+
 /* best gift styles */
-.best-gift{
-  height: 735px;
-  margin-top: 120px;
+
+.best-gift {
+  height: 935px;
+  margin: 120px 0px;
+}
+
+.best-gift .txt-description {
+  width: 896px;
+  height: 64px;
+  margin-bottom: 48px;
+}
+
+.grid-container {
+  gap: 24px;
+}
+.grid-row {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+.grid-row img {
+  width: 314px;
+  height: 340px;
+  flex-shrink: 0;
+  border-radius: 16px;
+}
+
+/* subscribe section styles */
+
+.subscribe {
+  height: 616px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  padding: 80px 212px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+.subscribe .highlight-text {
+  color: #070211;
+  font-family: Merriweather;
+  text-transform: capitalize;
+}
+
+.subscribe img {
+  width: 150px;
+  height: 150px;
+  flex-shrink: 0;
+  padding-bottom: 40px;
+}
+.subscribe .highlight-text {
+  margin-bottom: 22px;
+}
+
+.subscribe .txt-description {
+  margin-bottom: 48px;
+}
+
+.subscribe form input {
+  width: 648px;
+  height: 70px;
+  flex-shrink: 0;
+  border: 0px;
+  background: #fff;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.subscribe .primary-btn {
+  border-radius: 0px 50px 50px 0px;
+  width: 210px;
+  height: 70px;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.subscribe form {
+  display: flex;
+}
+.subscribe ::placeholder {
+  color: rgba(7, 2, 17, 0.3);
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 25px 477px 25px 30px;
+}
+
+/* footer section styles */
+
+footer {
+  height: 609px;
+  flex-shrink: 0;
+  background: #070211;
+  padding: 120px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 40px; /* 166.667% */
+}
+
+footer .info-container {
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.info-contact {
+  padding-right: 560px;
+}
+
+.social-media {
+  display: flex;
+  gap: 24px;
+  padding: 48px 500px;
+}
+
+.copyright-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
 }
