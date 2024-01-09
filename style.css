@@ -135,7 +135,7 @@ main {
 }
 
 .welcome-container {
-  max-width: 800px;
+  max-width: 600px;
   align-items: center;
 }
 
@@ -168,6 +168,7 @@ main {
   background-image: url("images/Group 70.png");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   display: flex;
   width: 319.83px;
   height: 464.662px;
