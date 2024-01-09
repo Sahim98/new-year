@@ -48,17 +48,7 @@ main {
   color: aliceblue;
   border: 0px;
   font-weight: bold;
-}
-
-.transparent-btn {
-  background-color: transparent;
-  background-repeat: no-repeat;
-  border: none;
-  cursor: pointer;
-  overflow: hidden;
-  outline: none;
   font-size: 20px;
-  color: #fff;
 }
 
 .txt-description {
@@ -132,20 +122,45 @@ main {
 
 .night-party {
   background-image: url("images/Vectorrr.png"),
-    linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+    linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 700px;
   padding: 68px 138px;
   margin-bottom: 120px;
-  align-items: center;
   display: flex;
+  align-items: center;
 }
 
 .welcome-container {
+  max-width: 800px;
   align-items: center;
-  max-width: 700px;
+}
+
+.night-party p {
+  width: 697px;
+  padding-bottom: 48px;
+  padding-top: 24px;
+}
+
+.transparent-btn {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  font-size: 20px;
+  color: #fff;
+}
+
+.night-party button {
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 5px;
 }
 
 .year2024 {
@@ -161,23 +176,6 @@ main {
   align-items: center;
   flex-shrink: 0;
   margin: 68px 138px 68px 40px;
-}
-.night-party div {
-  padding-bottom: 24px;
-  padding-top: 126px;
-}
-.night-party p {
-  width: 697px;
-  padding-bottom: 48px;
-}
-
-.night-party button {
-  text-align: center;
-  font-family: Inter;
-  font-size: 20px;
-  font-weight: 700;
-  padding: 5px;
-  /* margin-bottom: 142px; */
 }
 
 /* event section styles */
@@ -242,6 +240,59 @@ main {
   background-position: center;
 }
 
+/* Holiday */
+.holiday {
+  height: 1035px;
+  margin-top: 120px;
+  background-color: palegreen;
+}
+
+.holiday-title {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.holiday-offer {
+  color: #f00;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.holiday p {
+  height: 80px;
+  width: 60%;
+  background-color: peru;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 64px;
+}
+
+.image-container{
+  background-color: #f00;
+  height: 433px;
+  justify-content: right;
+}
+
+.holiday .img {
+  background-image: url('images/Rectangle 1.png'); 
+  background-position: bottom right;
+  background-size: cover;
+  width: 429px;
+  height: 433px;
+  flex-shrink: 0;
+  border-radius: 16px 16px 0px 0px;
+}
+
 /* best gift styles */
 
 .best-gift {
@@ -282,6 +333,7 @@ main {
   align-items: center;
   text-align: center;
   margin-bottom: 120px;
+  font-size: 20px;
 }
 
 .subscribe .highlight-text {
