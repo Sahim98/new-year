@@ -288,7 +288,7 @@ main {
   background-image: url("images/Rectangle 2.png"),url("images/Rectangle 1.png");
   background-position: bottom, top right;
   background-repeat: no-repeat, no-repeat;
-  border-radius: 16px 0px 16px 16px , 16px 16px 0px 0px;
+  border-radius: 16px 0px 16px 16px ;
   display: flex;
 }
 
@@ -297,12 +297,12 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 276px;
+  margin-left: 200px;
+  padding-right: 50px;
 }
 
  .img2 {
-
-  margin-right: 280px;
+  margin-right: 300px;
   margin-bottom: 229px;
 }
 .image-wrapper .holiday-discount {
