@@ -452,6 +452,12 @@ footer .info-container {
   margin-top: 50px;
 }
 
-.line {
-  font: 24px;
+
+.line{
+  display: flex;
+  height: 30px;
+  gap:10px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
